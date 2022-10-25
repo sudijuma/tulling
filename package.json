@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "\u0016Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions, etc.",
   "main": "src/index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/sudijuma/tulling/issues"
   },
-  "homepage": "https://github.com/sudijuma/tulling#readme"
+  "homepage": "https://github.com/sudijuma/tulling#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }

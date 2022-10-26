@@ -1,5 +1,5 @@
 {
-  "name": "joker",
+  "name": "mwakie-joker",
   "version": "0.1.0",
   "description": "\u0016Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions, etc.",
   "main": "src/index.js",

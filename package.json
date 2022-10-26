@@ -29,6 +29,7 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
+    "eslint": "^8.26.0",
     "give-me-a-joke": "^0.5.1"
   }
 }

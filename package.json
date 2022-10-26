@@ -1,6 +1,6 @@
 {
   "name": "mwakie-joker",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "\u0016Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions, etc.",
   "main": "src/index.js",
   "type": "module",

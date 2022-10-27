@@ -1,6 +1,6 @@
 {
   "name": "mwakie-joker",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "\u0016Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions, etc.",
   "main": "src/index.js",
   "type": "module",
@@ -8,7 +8,8 @@
     "test": "node src/js/joker.test.js",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
-    "lint-fix": "eslint src/**/*.js --cache --fix"
+    "lint-fix": "eslint src/**/*.js --cache --fix",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -28,9 +29,23 @@
   "homepage": "https://github.com/sudijuma/tulling#readme",
   "devDependencies": {
     "eslint": "^8.26.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
   },
   "dependencies": {
     "give-me-a-joke": "^0.5.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
   }
 }
